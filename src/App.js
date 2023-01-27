@@ -5,6 +5,7 @@ import ToDo from "./React_Folder/ToDo";
 import ReactRouterExample from "./React_Folder/Routing/ReactRouterExample";
 import CreatingForm from "./React_Folder/Forms/CreatingForm";
 import LandingPage from "./React_Folder/DisplayData/LandingPage";
+import Timer from "./React_Folder/Timer";
 import { BrowserRouter } from "react-router-dom";
 import { useState, createContext } from "react";
 export const BGContext = createContext();
@@ -42,7 +43,8 @@ export default function App() {
           {/* <ToDo /> */}
           {/* <ReactRouterExample /> */}
           {/* <LandingPage /> */}
-          <CreatingForm />
+          {/* <CreatingForm /> */}
+          <Timer />
         </div>
       </BrowserRouter>
     </BGContext.Provider>
