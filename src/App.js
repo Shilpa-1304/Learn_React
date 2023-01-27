@@ -3,6 +3,7 @@ import FetchData from "./React_Folder/Fetching";
 import ContextAPI from "./React_Folder/ContextAPI/ContextAPI";
 import ToDo from "./React_Folder/ToDo";
 import ReactRouterExample from "./React_Folder/Routing/ReactRouterExample";
+import CreatingForm from "./React_Folder/Forms/CreatingForm";
 import LandingPage from "./React_Folder/DisplayData/LandingPage";
 import { BrowserRouter } from "react-router-dom";
 import { useState, createContext } from "react";
@@ -40,7 +41,8 @@ export default function App() {
           {/* <ContextAPI /> */}
           {/* <ToDo /> */}
           {/* <ReactRouterExample /> */}
-          <LandingPage />
+          {/* <LandingPage /> */}
+          <CreatingForm />
         </div>
       </BrowserRouter>
     </BGContext.Provider>
